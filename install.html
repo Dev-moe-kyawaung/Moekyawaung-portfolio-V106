@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOE KYAW AUNG • V106 | README &amp; Installation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .glass {
+            background: rgba(255,255,255,0.06);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .code-block {
+            font-family: 'Space Grotesk', ui-monospace, monospace;
+            background: #111;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        
+        .nav-active {
+            color: #7F52FF;
+            position: relative;
+        }
+        
+        .nav-active:after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, #7F52FF, #a855f7);
+        }
+        
+        .premium-card {
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        
+        .section-header {
+            font-size: 3rem;
+            line-height: 1.1;
+            font-weight: 700;
+            letter-spacing: -2px;
+        }
+        
+        .readme-header {
+            background: linear-gradient(135deg, #0a0a0a, #111);
+        }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-[#e0e0e0]">
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-gradient-to-br from-[#7F52FF] to-purple-600 rounded-2xl flex items-center justify-center">
+                        <i class="fas fa-star text-white"></i>
+                    </div>
+                    <div>
+                        <span class="font-bold text-2xl tracking-tighter">MKA</span>
+                        <span class="block -mt-1 text-xs text-white/50 font-mono">V106</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center gap-x-8 text-sm">
+                    <a href="#readme" class="nav-link nav-active">README</a>
+                    <a href="#components" class="nav-link">Components</a>
+                    <a href="#install" class="nav-link">Install</a>
+                    <a href="#wpa" class="nav-link">PWA</a>
+                </div>
+                
+                <div>
+                    <a href="https://github.com/Dev-moe-kyawaung" target="_blank" 
+                       class="px-5 py-2.5 text-sm font-medium glass rounded-2xl flex items-center gap-x-2 hover:bg-white/10">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <div class="pt-20 readme-header border-b border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8 py-20">
+            <div class="max-w-3xl">
+                <div class="flex items-center gap-x-3 mb-4">
+                    <span class="px-3 py-1 bg-emerald-900/40 text-emerald-400 text-xs rounded-full">PRODUCTION READY</span>
+                    <span class="px-3 py-1 bg-white/10 text-xs rounded-full">V106</span>
+                </div>
+                
+                <h1 class="text-6xl font-black tracking-tighter">Portfolio README</h1>
+                <p class="mt-4 text-xl text-[#a0a0a0]">Premium documentation for Moe Kyaw Aung’s professional portfolio</p>
+                
+                <div class="mt-8 flex items-center gap-x-4">
+                    <a href="#install" class="px-6 py-3.5 bg-white text-[#0a0a0a] font-semibold rounded-2xl flex items-center gap-x-2">
+                        <i class="fas fa-download"></i>
+                        <span>Get Started</span>
+                    </a>
+                    <a href="#wpa" class="px-6 py-3.5 glass rounded-2xl flex items-center gap-x-2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Install PWA</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- README Section -->
+    <section id="readme" class="max-w-screen-2xl mx-auto px-8 py-20">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-8">
+                <span class="text-xs px-4 py-1.5 bg-white/10 rounded-full">DOCUMENTATION</span>
+            </div>
+            
+            <h2 class="text-5xl font-black tracking-tighter">README.md</h2>
+            
+            <div class="mt-10 code-block p-8 rounded-3xl text-sm">
+                <pre class="text-[#a0a0a0] overflow-x-auto"><code># ⭐ MOE KYAW AUNG - Senior Android Developer
+
+## Portfolio V106
+
+Professional portfolio website showcasing 12+ years of experience in Android development.
+
+### Features
+- Glassmorphism design
+- Fully responsive
+- PWA ready
+- Custom cursor
+- Dark/Light mode
+- Animated statistics
+- Production-ready code
+
+### Tech Stack
+- HTML5 + Tailwind CSS
+- Vanilla JavaScript
+- Font Awesome
+- Google Fonts
+
+### Sections
+1. Hero with particle background
+2. About + Timeline
+3. Skills &amp; Tech Stack
+4. Featured Apps
+5. GitHub Repositories
+6. Lovable Apps
+7. Contact Form
+
+### Installation
+See the Installation section below.
+
+### License
+MIT License
+
+### Author
+Moe Kyaw Aung
+- GitHub: https://github.com/Dev-moe-kyawaung
+- Email: moekyawaung@programmer.net
+- Phone: +95 9 889 000 889</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Components Section -->
+    <section id="components" class="max-w-screen-2xl mx-auto px-8 py-20 bg-[#111]">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-12">
+                <span class="text-xs px-4 py-1.5 bg-white/10 rounded-full">REUSABLE COMPONENTS</span>
+                <h2 class="text-5xl font-black tracking-tighter mt-4">Component Library</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Component Cards -->
+                <div class="glass p-6 rounded-3xl premium-card">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="font-semibold">Glass Card</div>
+                        <span class="text-xs bg-white/10 px-3 py-1 rounded-full">Reusable</span>
+                    </div>
+                    <div class="text-xs text-[#a0a0a0]">Premium glassmorphism card with hover effects</div>
+                    <div class="mt-6">
+                        <div class="code-block p-3 text-xs rounded-2xl">
+                            &lt;div class="glass p-6 rounded-3xl"&gt;...&lt;/div&gt;
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glass p-6 rounded-3xl premium-card">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="font-semibold">Animated Counter</div>
+                        <span class="text-xs bg-white/10 px-3 py-1 rounded-full">JS</span>
+                    </div>
+                    <div class="text-xs text-[#a0a0a0]">Intersection Observer animated number counter</div>
+                    <div class="mt-6 text-xs">
+                        <div class="flex gap-2">
+                            <span class="px-3 py-1 bg-white/5 rounded-xl">12</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-xl">3200</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-xl">100</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="glass p-6 rounded-3xl premium-card">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="font-semibold">Progress Ring</div>
+                        <span class="text-xs bg-white/10 px-3 py-1 rounded-full">SVG</span>
+                    </div>
+                    <div class="text-xs text-[#a0a0a0]">Animated SVG progress rings for skill visualization</div>
+                    <div class="mt-4 flex gap-3">
+                        <div class="w-10 h-10 rounded-full border-4 border-[#7F52FF] border-t-transparent"></div>
+                    </div>
+                </div>
+                
+                <div class="glass p-6 rounded-3xl premium-card">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="font-semibold">Contact Form</div>
+                        <span class="text-xs bg-white/10 px-3 py-1 rounded-full">JS</span>
+                    </div>
+                    <div class="text-xs text-[#a0a0a0]">Fully validated contact form with loading states</div>
+                </div>
+                
+                <div class="glass p-6 rounded-3xl premium-card">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="font-semibold">Particle Canvas</div>
+                        <span class="text-xs bg-white/10 px-3 py-1 rounded-full">Canvas</span>
+                    </div>
+                    <div class="text-xs text-[#a0a0a0]">Interactive particle background for hero section</div>
+                </div>
+                
+                <div class="glass p-6 rounded-3xl premium-card">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="font-semibold">Masonry Grid</div>
+                        <span class="text-xs bg-white/10 px-3 py-1 rounded-full">CSS</span>
+                    </div>
+                    <div class="text-xs text-[#a0a0a0]">Pinterest-style masonry layout for projects</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="install" class="max-w-screen-2xl mx-auto px-8 py-20">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-12">
+                <span class="text-xs px-4 py-1.5 bg-white/10 rounded-full">INSTALLATION</span>
+                <h2 class="text-5xl font-black tracking-tighter mt-4">Quick Start Guide</h2>
+            </div>
+            
+            <div class="space-y-8">
+                <!-- Step 1 -->
+                <div class="glass p-8 rounded-3xl">
+                    <div class="flex gap-x-4">
+                        <div class="w-8 h-8 flex-shrink-0 bg-[#7F52FF] text-white rounded-2xl flex items-center justify-center font-bold">1</div>
+                        <div class="flex-1">
+                            <div class="font-semibold mb-2">Clone the repository</div>
+                            <div class="code-block p-4 rounded-2xl text-xs">
+                                <code>git clone https://github.com/Dev-moe-kyawaung/moekyawaung-portfolio-v106.git</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="glass p-8 rounded-3xl">
+                    <div class="flex gap-x-4">
+                        <div class="w-8 h-8 flex-shrink-0 bg-[#7F52FF] text-white rounded-2xl flex items-center justify-center font-bold">2</div>
+                        <div class="flex-1">
+                            <div class="font-semibold mb-2">Navigate to project</div>
+                            <div class="code-block p-4 rounded-2xl text-xs">
+                                <code>cd moekyawaung-portfolio-v106</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="glass p-8 rounded-3xl">
+                    <div class="flex gap-x-4">
+                        <div class="w-8 h-8 flex-shrink-0 bg-[#7F52FF] text-white rounded-2xl flex items-center justify-center font-bold">3</div>
+                        <div class="flex-1">
+                            <div class="font-semibold mb-2">Open in browser</div>
+                            <div class="text-sm text-[#a0a0a0]">Simply open <span class="font-mono text-[#7F52FF]">index.html</span> in any modern browser. No build step required.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-10 text-xs text-center text-[#a0a0a0]">
+                This portfolio is a single HTML file — zero dependencies, production-ready.
+            </div>
+        </div>
+    </section>
+
+    <!-- PWA Section -->
+    <section id="wpa" class="max-w-screen-2xl mx-auto px-8 py-20 bg-[#111]">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-5 gap-8 items-center">
+                <div class="md:col-span-3">
+                    <span class="text-xs px-4 py-1.5 bg-white/10 rounded-full">PROGRESSIVE WEB APP</span>
+                    <h2 class="text-5xl font-black tracking-tighter mt-4">Install as PWA</h2>
+                    <p class="mt-4 text-[#a0a0a0]">This portfolio is fully PWA-ready. Install it on your device for an app-like experience.</p>
+                    
+                    <div class="mt-8 space-y-4">
+                        <div class="flex items-center gap-x-3">
+                            <i class="fas fa-check text-emerald-400"></i>
+                            <span>Offline access</span>
+                        </div>
+                        <div class="flex items-center gap-x-3">
+                            <i class="fas fa-check text-emerald-400"></i>
+                            <span>Fast loading</span>
+                        </div>
+                        <div class="flex items-center gap-x-3">
+                            <i class="fas fa-check text-emerald-400"></i>
+                            <span>Add to home screen</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:col-span-2 glass p-8 rounded-3xl">
+                    <div class="text-center">
+                        <div class="mx-auto w-16 h-16 bg-gradient-to-br from-[#7F52FF] to-purple-600 rounded-3xl flex items-center justify-center mb-6">
+                            <i class="fas fa-mobile-alt text-3xl"></i>
+                        </div>
+                        
+                        <div class="font-semibold mb-2">Install on your device</div>
+                        <div class="text-xs text-[#a0a0a0]">Click the install button in your browser or use the button below.</div>
+                        
+                        <button onclick="installPWA()" 
+                                class="mt-6 w-full py-3.5 bg-white text-[#0a0a0a] font-semibold rounded-2xl flex items-center justify-center gap-x-2">
+                            <i class="fas fa-download"></i>
+                            <span>Install Portfolio</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-8">
+        <div class="max-w-screen-2xl mx-auto px-8 text-xs text-center text-[#a0a0a0]">
+            © 2025 Moe Kyaw Aung • Premium Portfolio V106
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind
+        function initTailwind() {
+            // Already configured
+        }
+        
+        // PWA Install
+        let deferredPrompt;
+        
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+        });
+        
+        function installPWA() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('%c[PWA] User accepted the install prompt', 'color:#7F52FF');
+                    }
+                    deferredPrompt = null;
+                });
+            } else {
+                alert("To install this PWA:\n\n1. Open Chrome/Edge on mobile\n2. Tap the menu (⋮)\n3. Select 'Add to Home screen'");
+            }
+        }
+        
+        // Scroll Progress
+        function initScrollProgress() {
+            const progress = document.createElement('div');
+            progress.className = 'fixed top-0 left-0 h-0.5 bg-gradient-to-r from-[#7F52FF] to-purple-600 z-[999]';
+            document.body.appendChild(progress);
+            
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const percent = (scrollTop / docHeight) * 100;
+                progress.style.width = percent + '%';
+            });
+        }
+        
+        // Smooth Scroll
+        function initSmoothScroll() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        }
+        
+        // Active Nav
+        function initActiveNav() {
+            const links = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('section[id]');
+            
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    if (scrollY >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                links.forEach(link => {
+                    link.classList.remove('nav-active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('nav-active');
+                    }
+                });
+            });
+        }
+        
+        function initPortfolio() {
+            initTailwind();
+            initScrollProgress();
+            initSmoothScroll();
+            initActiveNav();
+            
+            // Easter egg
+            console.log('%c[Portfolio] V106 README page ready. All systems operational.', 'color:#7F52FF');
+        }
+        
+        window.onload = initPortfolio;
+    </script>
+</body>
+</html>
