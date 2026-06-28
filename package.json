@@ -1,0 +1,155 @@
+{
+  "name": "moe-kyaw-aung-portfolio-v106",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Moe Kyaw Aung - Senior Android Developer with 12+ years experience. Features glassmorphism design, smooth animations, and 30+ interactive features.",
+  "main": "moe-kyaw-aung-portfolio-v106.html",
+  "author": {
+    "name": "Moe Kyaw Aung",
+    "email": "moekyawaung@programmer.net",
+    "url": "https://github.com/Dev-moe-kyawaung",
+    "location": "Tachileik, Myanmar / Bangkok, Thailand"
+  },
+  "license": "MIT",
+  "homepage": "https://moekyawaung.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-moe-kyawaung/portfolio-v106.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev-moe-kyawaung/portfolio-v106/issues",
+    "email": "moekyawaung@programmer.net"
+  },
+  "keywords": [
+    "portfolio",
+    "android",
+    "developer",
+    "kotlin",
+    "jetpack",
+    "firebase",
+    "responsive",
+    "glassmorphism",
+    "dark-mode",
+    "animations",
+    "web",
+    "frontend",
+    "html5",
+    "css3",
+    "javascript",
+    "clean-architecture",
+    "mvvm",
+    "myanmar",
+    "thailand",
+    "senior-developer"
+  ],
+  "scripts": {
+    "start": "npx http-server",
+    "dev": "npx http-server -p 8000",
+    "minify": "node scripts/minify.js",
+    "deploy": "bash scripts/deploy.sh",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "npx stylelint '**/*.css' && npx eslint 'scripts/**/*.js'",
+    "format": "npx prettier --write '**/*.{html,css,js,json,md}'",
+    "serve": "npx http-server -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0",
+    "stylelint": "^15.0.0",
+    "minify-html": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 firefox versions",
+    "last 2 safari versions",
+    "last 2 edge versions",
+    "last 2 opera versions",
+    "last 2 mobile safari versions"
+  ],
+  "files": [
+    "moe-kyaw-aung-portfolio-v106.html",
+    "README.md",
+    "LICENSE",
+    "docs/",
+    "examples/",
+    "assets/",
+    "scripts/"
+  ],
+  "categories": [
+    "portfolio",
+    "website",
+    "frontend",
+    "template"
+  ],
+  "features": {
+    "responsive": true,
+    "darkMode": true,
+    "animations": true,
+    "accessible": true,
+    "seo": true,
+    "performance": true
+  },
+  "stats": {
+    "linesOfCode": 3000,
+    "sections": 12,
+    "components": 20,
+    "animations": 15,
+    "colors": 20,
+    "fontSizes": 10
+  },
+  "technologies": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript"
+    ],
+    "libraries": [
+      "Font Awesome",
+      "Google Fonts"
+    ],
+    "services": [
+      "GitHub Pages",
+      "Cloudinary",
+      "Google Fonts"
+    ]
+  },
+  "contact": {
+    "email": "moekyawaung@programmer.net",
+    "phone": "+95 9 889 000 889",
+    "github": "https://github.com/Dev-moe-kyawaung",
+    "linkedin": "https://www.linkedin.com/in/moe-kyaw-aung-2653093a1",
+    "youtube": "https://www.youtube.com/channel/UCuTXUguZb4xjeL2nX8WJG",
+    "gravatar": "https://gravatar.com/moekyawaung13721"
+  },
+  "socialMedia": {
+    "github": "Dev-moe-kyawaung",
+    "linkedin": "moe-kyaw-aung-2653093a1",
+    "youtube": "UCuTXUguZb4xjeL2nX8WJG",
+    "twitter": "moekyawaung",
+    "instagram": "moekyawaung",
+    "bluesky": "moekyawaung96.bsky.social",
+    "tumblr": "moekyawaung",
+    "flickr": "204037451@N06"
+  },
+  "colors": {
+    "primary": "#0a0a0a",
+    "secondary": "#1a1a1a",
+    "accent": "#3b82f6",
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "danger": "#ef4444"
+  },
+  "metadata": {
+    "created": "2026-05-22",
+    "updated": "2026-05-22",
+    "version": "1.0.0",
+    "status": "production",
+    "maintenance": "active"
+  }
+}
+
